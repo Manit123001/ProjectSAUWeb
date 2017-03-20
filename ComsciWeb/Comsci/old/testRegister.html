@@ -1,0 +1,169 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+          <link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css">
+  <script type="text/javascript" src="./js/jquery.js"></script>
+  <script type="text/javascript" src="./js/bootstrap.min.js"></script>
+    <style type="text/css">
+        .form-group{ margin-bottom:0px !important;}
+        .form-control-feedback{top:0px !important;}
+    </style>
+</head>
+<body>
+
+
+
+ <br>
+    <div style="margin:auto;width:80%;">
+<form class="form" id="myform1" name="form1" method="post" action="" >
+  <table class="table" width="100%" border="0" cellspacing="3" cellpadding="0">
+    <tr>
+      <td width="25%" align="right">ชื่อ นามสกุล </td>
+      <td align="left">
+
+<div class="form-group has-feedback" style="width:250px;">
+      <input class="form-control css-require" name="name" type="text" id="name"  />
+      <span class="glyphicon form-control-feedback" aria-hidden="true"></span>
+</div>
+     
+      </td>
+    </tr>
+    <tr>
+      <td align="right">อีเมลล์</td>
+      <td align="left">
+
+<div class="form-group has-feedback" style="width:250px;">
+      <input class="form-control css-require" name="email" type="text" id="email" />
+      <span class="glyphicon form-control-feedback" aria-hidden="true"></span>
+</div>
+
+
+      </td>
+    </tr>
+    <tr>
+      <td align="right">เพศ</td>
+      <td align="left">
+
+        <div class="form-group has-feedback" style="width:200px;">
+          <div class="form-control css-require">
+            <label><input name="sex" type="radio" value="ชาย"  /> ชาย</label>
+            &nbsp;
+            <label><input name="sex" type="radio" value="หญิง" /> หญิง</label>
+          </div>
+          <span class="glyphicon form-control-feedback" aria-hidden="true"></span>
+        </div>
+
+      </td>
+    </tr>
+    <tr>
+      <td align="right">ความสนใจ</td>
+      <td align="left">
+
+<div class="form-group has-feedback" style="width:200px;">
+    <div class="form-control css-require" style="height:100px;">
+    <label><input name="like1" type="checkbox" value="การออกกำลังกาย"  /> การออกกำลังกาย</label>
+    &nbsp;
+    <label><input name="like2" type="checkbox" value="การอ่าน" /> อ่านหนังสือ</label>
+    </div>
+    <span class="glyphicon form-control-feedback" aria-hidden="true"></span>
+</div>
+
+      </td>
+    </tr>
+    <tr>
+      <td align="right">ที่อยู่</td>
+      <td align="left">
+
+<div class="form-group  has-feedback" style="width:350px;">
+      <textarea class="form-control css-require" name="address" cols="50" rows="4" id="address"></textarea>
+      <span class="glyphicon form-control-feedback" aria-hidden="true"></span>
+</div>
+
+      </td>
+    </tr>
+    <tr>
+      <td align="right">จังหวัด</td>
+      <td align="left">
+
+<div class="form-group has-feedback" style="width:250px;">
+       <select class="form-control css-require" name="province" id="province" >
+        <option value="">เลือกจังหวัด</option>
+        <option value="กรุงเทพ">กรุงเทพ</option>
+      </select>
+</div>
+
+      </td>
+    </tr>
+    <tr>
+      <td align="right">รหัสไปรษณีย์</td>
+      <td align="left">
+
+<div class="form-group has-feedback" style="width:150px;">
+    <input class="form-control  css-require" name="zipcode" type="text" id="zipcode"  />
+    <span class="glyphicon form-control-feedback" aria-hidden="true"></span>
+</div>
+
+
+      </td>
+    </tr>
+    <tr>
+      <td align="right"> </td>
+      <td align="left"><input type="submit" class="btn btn-primary" name="Submit" value="Submit" /></td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td align="left"> </td>
+    </tr>
+  </table>
+</form>
+
+    </div>
+
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+ <script type="text/javascript">
+ $(function(){
+
+     var obj_check=$(".css-require");
+     $("#myform1").on("submit",function(){
+         obj_check.each(function(i,k){
+             var status_check=0;
+             if(obj_check.eq(i).find(":radio").length>0 || obj_check.eq(i).find(":checkbox").length>0){
+                 status_check=(obj_check.eq(i).find(":checked").length==0)?0:1;
+             }else{
+                 status_check=($.trim(obj_check.eq(i).val())=="")?0:1;
+             }
+             formCheckStatus($(this),status_check);
+         });
+         if($(this).find(".has-error").length>0){
+              return false;
+         }
+     });
+
+     obj_check.on("change",function(){
+         var status_check=0;
+         if($(this).find(":radio").length>0 || $(this).find(":checkbox").length>0){
+             status_check=($(this).find(":checked").length==0)?0:1;
+         }else{
+             status_check=($.trim($(this).val())=="")?0:1;
+         }
+         formCheckStatus($(this),status_check);
+     });
+
+     var formCheckStatus = function(obj,status){
+         if(status==1){
+             obj.parent(".form-group").removeClass("has-error").addClass("has-success");
+             obj.next(".glyphicon").removeClass("glyphicon-warning-sign").addClass("glyphicon-ok");
+         }else{
+             obj.parent(".form-group").removeClass("has-success").addClass("has-error");
+             obj.next(".glyphicon").removeClass("glyphicon-ok").addClass("glyphicon-warning-sign");
+         }
+     }
+
+ });
+</script>
+</body>
+</html>

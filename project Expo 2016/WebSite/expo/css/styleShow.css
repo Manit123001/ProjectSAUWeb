@@ -1,0 +1,55 @@
+body, ul, li, p, h1, h2, h3, h4 {
+  margin: 0;
+  padding: 0;
+}
+
+/* slideshow */
+
+ul.random {
+  width: 100%;
+  min-height:500px;
+  max-height: 100%;
+  margin: 0 auto;
+  position: relative;
+  
+  list-style: none;
+  
+  -webkit-perspective: 700;
+  perspective: 700;
+}
+
+
+ul.random li img{
+
+}
+li img{
+ 
+  width: 900px;
+  height: 500px;
+
+  min-width: 100%;
+}
+
+ul.random li label{
+    width: 100%;
+    
+
+}
+li {
+  position: absolute;  
+  
+  transform-origin: 0 100%;
+}
+li.current {
+  transition: all 0.3s ease-out;
+  opacity: 1.0;
+}
+li.in {
+  opacity: 0.0;
+  transform: rotate3d(1, 0, 0, -80deg);
+}
+li.out {
+  transition: all 0.3s ease-out;
+  opacity: 0.0;
+  transform: rotate3d(1, 0, 0, 90deg);
+}

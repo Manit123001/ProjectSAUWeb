@@ -1,0 +1,84 @@
+
+.nav-tabs.nav-tabs-transparent li.active a, .nav-tabs.nav-tabs-transparent li.active a:hover, .nav-tabs.nav-tabs-transparent li.active a:focus {
+     background-image: linear-gradient(to top, #0087c1, #0099da);
+     border-bottom: 1px solid #dddddd;
+     color: #ffffff;
+}
+
+.nav-tabs.nav-tabs-ar + .tab-content {
+     background-color: #f9f9f9;
+     border-bottom: 1px solid #e5e5e5;
+     border-left: 1px solid #e5e5e5;
+     border-right: 1px solid #e5e5e5;
+     overflow: hidden;
+     padding: 15px;
+}
+
+.nav-tabs.nav-tabs-ar.nav-tabs-ar-white, .nav-tabs.nav-tabs-ar.nav-tabs-ar-white li a, .nav-tabs.nav-tabs-ar.nav-tabs-ar-white li a:hover, .nav-tabs.nav-tabs-ar.nav-tabs-ar-white li.active a, .nav-tabs.nav-tabs-ar.nav-tabs-ar-white li.active a:hover, .nav-tabs.nav-tabs-ar.nav-tabs-ar-white li.active a:focus, .nav-tabs.nav-tabs-ar.nav-tabs-ar-white + .tab-content {
+     background-color: #ffffff;
+}
+
+.nav-tabs.nav-tabs-ar li a i {
+     font-size: 1.2em;
+}
+
+.nav-tabs + .tab-content {
+     border-bottom: 1px solid #e5e5e5;
+     border-left: 1px solid #e5e5e5;
+     border-right: 1px solid #e5e5e5;
+     overflow: hidden;
+     padding: 15px;
+}
+
+.nav-tabs li a {
+     border-radius: 2px;
+}
+
+.nav-tabs.nav-tabs-round li a {
+     border-radius: 5px 5px 0px 0px;
+}
+
+.nav-tabs li a:hover {
+     background-color: #f5f5f5;
+}
+
+.input-group-addon {
+     background-color: #0099da;
+     border-color: #008bc6;
+     border-radius: 0px;
+     color: #ffffff;
+}
+
+.title-logo {
+     background-position: center top;
+
+     margin-bottom: 20px;
+     padding-top: 70px;
+     text-align: center;
+}
+
+
+.transparent-div {
+     background-color: rgba(255, 255, 255, 0.4);
+     border: 1px solid #c3c3c3;
+     box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.2), 0px 0px 2px #ffffff inset;
+     color: #7e8488;
+     padding: 20px;
+}
+
+
+.login-form-full {
+     margin: 0px auto;
+     max-width: 500px;
+     padding-top: 50px;
+}
+
+.paper-back-full {
+     /*background-image: url("../images/pre.jpg");*/
+     background-repeat: repeat;
+     padding-bottom: 30px;
+}
+
+@media (min-height: 800px) {
+  .login-form-full { padding-top: 10%; }
+}

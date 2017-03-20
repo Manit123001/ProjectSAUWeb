@@ -1,0 +1,87 @@
+
+.owl-theme .owl-controls {
+  margin-top: 10px;
+  text-align: center;
+}
+.owl-theme .owl-controls .owl-nav [class*="owl-"] {
+  background-attachment: scroll;
+  background-clip: border-box;
+  background-color: #d6d6d6;
+  background-image: none;
+  background-origin: padding-box;
+  background-position: 0 0;
+  background-repeat: repeat;
+  background-size: auto auto;
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 14px;
+  margin-bottom: 5px;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-top: 5px;
+  padding-bottom: 4px;
+  padding-left: 7px;
+  padding-right: 7px;
+  padding-top: 4px;
+}
+.owl-theme .owl-controls .owl-nav [class*="owl-"]:hover {
+  background-attachment: scroll;
+  background-clip: border-box;
+  background-color: #869791;
+  background-image: none;
+  background-origin: padding-box;
+  background-position: 0 0;
+  background-repeat: repeat;
+  background-size: auto auto;
+  color: #fff;
+  text-decoration-color: -moz-use-text-color;
+  text-decoration-line: none;
+  text-decoration-style: solid;
+}
+.owl-theme .owl-controls .owl-nav .disabled {
+  cursor: default;
+  opacity: 0.5;
+}
+.owl-theme .owl-dots .owl-dot {
+  display: inline-block;
+}
+.owl-theme .owl-dots .owl-dot span {
+  background-attachment: scroll;
+  background-clip: border-box;
+  background-color: #d6d6d6;
+  background-image: none;
+  background-origin: padding-box;
+  background-position: 0 0;
+  background-repeat: repeat;
+  background-size: auto auto;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  display: block;
+  height: 10px;
+  margin-bottom: 5px;
+  margin-left: 7px;
+  margin-right: 7px;
+  margin-top: 5px;
+  transition-delay: 0s;
+  transition-duration: 200ms;
+  transition-property: opacity;
+  transition-timing-function: ease;
+  width: 10px;
+}
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+  background-attachment: scroll;
+  background-clip: border-box;
+  background-color: #869791;
+  background-image: none;
+  background-origin: padding-box;
+  background-position: 0 0;
+  background-repeat: repeat;
+  background-size: auto auto;
+}

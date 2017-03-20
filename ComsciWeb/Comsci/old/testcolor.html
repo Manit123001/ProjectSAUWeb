@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+function processData(c1,c2) {
+	var cv1 = document.getElementById(c1).value;
+	var cv2 = document.getElementById(c2).value;
+	alert(cv1+"\n"+cv2);
+	// Use Ajax-PHP to send the values to server storage
+	// Ajax-PHP Video Tutorial - www.developphp.com/view.php?tid=1185
+}
+</script>
+</head>
+<body>
+<h2>HTML5 Color Picker + Javascript Tutorial</h2>
+Choose Color 1: <input type="color" name="color1" id="color1"><br /><br />
+Choose Color 2: <input type="color" name="color2" id="color2"><br /><br />
+<input type="button" onClick="processData('color1','color2')" value="Submit" />
+</body>
+</html>
+
+<td>
+	<div class="dropdown">
+		<button type="butotn" name="button" 
+			class="btn btn-default dropdown-toggle drop-edit"
+				data-toggle="dropdown">
+			<i class="fa fa-cog"></i>			
+			<span class="caret"></span>
+		</button>
+		<ul class="dropdown-menu">
+			<li><a href="#">Edit</a></li>
+			<li><a href="#">Delete</a></li>
+		</ul>
+	</div>
+</td>

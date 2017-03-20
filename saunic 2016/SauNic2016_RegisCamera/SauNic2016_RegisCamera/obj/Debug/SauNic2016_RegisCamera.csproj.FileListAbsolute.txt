@@ -1,0 +1,14 @@
+E:\Freelance\saunic 2016\SauNic2016_RegisCamera\SauNic2016_RegisCamera\bin\Debug\SauNic2016_RegisCamera.exe.config
+E:\Freelance\saunic 2016\SauNic2016_RegisCamera\SauNic2016_RegisCamera\bin\Debug\SauNic2016_RegisCamera.exe
+E:\Freelance\saunic 2016\SauNic2016_RegisCamera\SauNic2016_RegisCamera\bin\Debug\SauNic2016_RegisCamera.pdb
+E:\Freelance\saunic 2016\SauNic2016_RegisCamera\SauNic2016_RegisCamera\bin\Debug\AForge.dll
+E:\Freelance\saunic 2016\SauNic2016_RegisCamera\SauNic2016_RegisCamera\bin\Debug\AForge.Video.DirectShow.dll
+E:\Freelance\saunic 2016\SauNic2016_RegisCamera\SauNic2016_RegisCamera\bin\Debug\AForge.Video.dll
+E:\Freelance\saunic 2016\SauNic2016_RegisCamera\SauNic2016_RegisCamera\bin\Debug\AForge.xml
+E:\Freelance\saunic 2016\SauNic2016_RegisCamera\SauNic2016_RegisCamera\bin\Debug\AForge.Video.xml
+E:\Freelance\saunic 2016\SauNic2016_RegisCamera\SauNic2016_RegisCamera\bin\Debug\AForge.Video.DirectShow.xml
+E:\Freelance\saunic 2016\SauNic2016_RegisCamera\SauNic2016_RegisCamera\obj\Debug\SauNic2016_RegisCamera.Form1.resources
+E:\Freelance\saunic 2016\SauNic2016_RegisCamera\SauNic2016_RegisCamera\obj\Debug\SauNic2016_RegisCamera.Properties.Resources.resources
+E:\Freelance\saunic 2016\SauNic2016_RegisCamera\SauNic2016_RegisCamera\obj\Debug\SauNic2016_RegisCamera.csproj.GenerateResource.Cache
+E:\Freelance\saunic 2016\SauNic2016_RegisCamera\SauNic2016_RegisCamera\obj\Debug\SauNic2016_RegisCamera.exe
+E:\Freelance\saunic 2016\SauNic2016_RegisCamera\SauNic2016_RegisCamera\obj\Debug\SauNic2016_RegisCamera.pdb

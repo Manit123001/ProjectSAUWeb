@@ -1,0 +1,22 @@
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\Connect to Webcam\Connect to Webcam\bin\Debug\ImageDataBase.mdf
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\Connect to Webcam\Connect to Webcam\bin\Debug\ImageDataBase_log.ldf
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\Connect to Webcam\Connect to Webcam\bin\Debug\Connect to Webcam.exe.config
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\Connect to Webcam\Connect to Webcam\bin\Debug\Connect to Webcam.exe
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\Connect to Webcam\Connect to Webcam\bin\Debug\Connect to Webcam.pdb
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\Connect to Webcam\Connect to Webcam\obj\Debug\Connect_to_Webcam.Form1.resources
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\Connect to Webcam\Connect to Webcam\obj\Debug\Connect_to_Webcam.Properties.Resources.resources
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\Connect to Webcam\Connect to Webcam\obj\Debug\Connect to Webcam.csproj.GenerateResource.Cache
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\Connect to Webcam\Connect to Webcam\obj\Debug\Connect to Webcam.exe
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\Connect to Webcam\Connect to Webcam\obj\Debug\Connect to Webcam.pdb
+C:\Users\Administrator\Documents\Visual Studio 2013\Projects\Connect to Webcam\Connect to Webcam\obj\Debug\Connect to Webcam.csprojResolveAssemblyReference.cache
+E:\Freelance\project Expo 2016\C# Camera\เครื่อง server\Connect to Webcam\Connect to Webcam\bin\Debug\Connect to Webcam.exe.config
+E:\Freelance\project Expo 2016\C# Camera\เครื่อง server\Connect to Webcam\Connect to Webcam\obj\Debug\Connect to Webcam.exe
+E:\Freelance\project Expo 2016\C# Camera\เครื่อง server\Connect to Webcam\Connect to Webcam\obj\Debug\Connect to Webcam.pdb
+E:\Freelance\project Expo 2016\C# Camera\เครื่อง server\Connect to Webcam\Connect to Webcam\bin\Debug\ImageDataBase.mdf
+E:\Freelance\project Expo 2016\C# Camera\เครื่อง server\Connect to Webcam\Connect to Webcam\bin\Debug\ImageDataBase_log.ldf
+E:\Freelance\project Expo 2016\C# Camera\เครื่อง server\Connect to Webcam\Connect to Webcam\bin\Debug\Connect to Webcam.exe
+E:\Freelance\project Expo 2016\C# Camera\เครื่อง server\Connect to Webcam\Connect to Webcam\bin\Debug\Connect to Webcam.pdb
+E:\Freelance\project Expo 2016\C# Camera\เครื่อง server\Connect to Webcam\Connect to Webcam\obj\Debug\Connect to Webcam.csprojResolveAssemblyReference.cache
+E:\Freelance\project Expo 2016\C# Camera\เครื่อง server\Connect to Webcam\Connect to Webcam\obj\Debug\Connect_to_Webcam.Form1.resources
+E:\Freelance\project Expo 2016\C# Camera\เครื่อง server\Connect to Webcam\Connect to Webcam\obj\Debug\Connect_to_Webcam.Properties.Resources.resources
+E:\Freelance\project Expo 2016\C# Camera\เครื่อง server\Connect to Webcam\Connect to Webcam\obj\Debug\Connect to Webcam.csproj.GenerateResource.Cache

@@ -1,0 +1,74 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title></title>
+</head>
+
+<body>
+
+<div style="margin:auto;">
+<form id="form_checkbox1" name="form_checkbox1" method="post" action="">
+<table width="600" border="0" align="center" cellpadding="0" cellspacing="2">
+<thead>
+  <tr>
+    <th align="center" bgcolor="#CCFFCC">&nbsp;</th>
+    <th bgcolor="#CCFFCC">Topic</th>
+  </tr>
+</thead>
+  <tr>
+    <td width="50" align="center">
+      <input name="data_item1" type="checkbox" class="css_data_item" id="data_item1" value="1" />
+    </td>
+    <td>Data1</td>
+  </tr>
+  <tr>
+    <td width="50" align="center">
+      <input name="data_item2" type="checkbox"  class="css_data_item" id="data_item2" value="2" />
+    </td>
+    <td>Data2</td>
+  </tr>
+  <tr>
+    <td width="50" align="center">
+      <input name="data_item3" type="checkbox" class="css_data_item"  id="data_item3" value="3" />
+    </td>
+    <td>Data3</td>
+  </tr>
+  <tr>
+    <td width="50" align="center">
+      <input name="data_item4" type="checkbox" class="css_data_item"  id="data_item4" value="4" />
+    </td>
+    <td>Data4</td>
+  </tr>
+  <tr>
+    <td align="center">&nbsp;</td>
+    <td><input type="submit" name="button" id="button" value="Submit" /></td>
+  </tr>
+</table>
+
+</form>
+</div>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+<script type="text/javascript">
+$(function(){
+
+    $(".css_data_item").click(function(){  // เมื่อคลิก checkbox  ใดๆ
+        if($(this).prop("checked")==true){ // ตรวจสอบ property  การ ของ
+            var indexObj=$(this).index(".css_data_item"); //
+            $(".css_data_item").not(":eq("+indexObj+")").prop( "checked", false ); // ยกเลิกการคลิก รายการอื่น
+        }
+    });
+
+    $("#form_checkbox1").submit(function(){ // เมื่อมีการส่งข้อมูลฟอร์ม
+        if($(".css_data_item:checked").length==0){ // ถ้าไม่มีการเลือก checkbox ใดๆ เลย
+            alert("NO");
+            return false;
+        }
+    });
+
+});
+</script>
+
+</body>
+</html>
