@@ -121,7 +121,7 @@ namespace Connect_to_Webcam
                             //picShow.Image.Save(@"C:\Users\Administrator\Google Drive\SAUNIC2016Participant\" + name + ".jpg", ImageFormat.Jpeg);
 
                             string sql = "INSERT INTO tbexposau (name_image) VALUES ('" + name + "')";
-                            MySqlConnection con = new MySqlConnection("host=localhost; user=expoSAU; password=1234; database=images_expo");
+                            MySqlConnection con = new MySqlConnection("host=localhost; user=root; password=123456; database=images_expo");
                             MySqlCommand cmd = new MySqlCommand(sql, con);
                             con.Open();
 

@@ -20,3 +20,18 @@ E:\Freelance\project Expo 2016\C# Camera\เครื่อง server\Connect to
 E:\Freelance\project Expo 2016\C# Camera\เครื่อง server\Connect to Webcam\Connect to Webcam\obj\Debug\Connect_to_Webcam.Form1.resources
 E:\Freelance\project Expo 2016\C# Camera\เครื่อง server\Connect to Webcam\Connect to Webcam\obj\Debug\Connect_to_Webcam.Properties.Resources.resources
 E:\Freelance\project Expo 2016\C# Camera\เครื่อง server\Connect to Webcam\Connect to Webcam\obj\Debug\Connect to Webcam.csproj.GenerateResource.Cache
+E:\Freelance งานที่ทำให้ สาขา\project Expo 2016\C# Camera\เครื่อง server\Connect to Webcam\Connect to Webcam\bin\Debug\ImageDataBase.mdf
+E:\Freelance งานที่ทำให้ สาขา\project Expo 2016\C# Camera\เครื่อง server\Connect to Webcam\Connect to Webcam\bin\Debug\ImageDataBase_log.ldf
+E:\Freelance งานที่ทำให้ สาขา\project Expo 2016\C# Camera\เครื่อง server\Connect to Webcam\Connect to Webcam\bin\Debug\Connect to Webcam.exe.config
+E:\Freelance งานที่ทำให้ สาขา\project Expo 2016\C# Camera\เครื่อง server\Connect to Webcam\Connect to Webcam\bin\Debug\Connect to Webcam.exe
+E:\Freelance งานที่ทำให้ สาขา\project Expo 2016\C# Camera\เครื่อง server\Connect to Webcam\Connect to Webcam\bin\Debug\Connect to Webcam.pdb
+E:\Freelance งานที่ทำให้ สาขา\project Expo 2016\C# Camera\เครื่อง server\Connect to Webcam\Connect to Webcam\bin\Debug\MySql.Data.dll
+E:\Freelance งานที่ทำให้ สาขา\project Expo 2016\C# Camera\เครื่อง server\Connect to Webcam\Connect to Webcam\bin\Debug\MySql.Web.dll
+E:\Freelance งานที่ทำให้ สาขา\project Expo 2016\C# Camera\เครื่อง server\Connect to Webcam\Connect to Webcam\bin\Debug\MySql.Data.xml
+E:\Freelance งานที่ทำให้ สาขา\project Expo 2016\C# Camera\เครื่อง server\Connect to Webcam\Connect to Webcam\bin\Debug\MySql.Web.xml
+E:\Freelance งานที่ทำให้ สาขา\project Expo 2016\C# Camera\เครื่อง server\Connect to Webcam\Connect to Webcam\obj\Debug\Connect to Webcam.csprojResolveAssemblyReference.cache
+E:\Freelance งานที่ทำให้ สาขา\project Expo 2016\C# Camera\เครื่อง server\Connect to Webcam\Connect to Webcam\obj\Debug\Connect_to_Webcam.Form1.resources
+E:\Freelance งานที่ทำให้ สาขา\project Expo 2016\C# Camera\เครื่อง server\Connect to Webcam\Connect to Webcam\obj\Debug\Connect_to_Webcam.Properties.Resources.resources
+E:\Freelance งานที่ทำให้ สาขา\project Expo 2016\C# Camera\เครื่อง server\Connect to Webcam\Connect to Webcam\obj\Debug\Connect to Webcam.csproj.GenerateResource.Cache
+E:\Freelance งานที่ทำให้ สาขา\project Expo 2016\C# Camera\เครื่อง server\Connect to Webcam\Connect to Webcam\obj\Debug\Connect to Webcam.exe
+E:\Freelance งานที่ทำให้ สาขา\project Expo 2016\C# Camera\เครื่อง server\Connect to Webcam\Connect to Webcam\obj\Debug\Connect to Webcam.pdb
